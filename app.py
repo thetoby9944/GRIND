@@ -28,4 +28,5 @@ if st.button("⟳"):
 
 st.write(f"# {exercise}")
 
+st.write("Made with ❤️by (https://www.instagram.com/postpandemicpump/)[@PostPandemicPump]")
 footer()

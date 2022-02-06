@@ -64,9 +64,7 @@ def layout(*args):
 
 def footer():
     myargs = [
-        "Made with ❤️ by ",
-        link("https://www.instagram.com/postpandemicpump/", "@PostPandemicPump"),
-        br(),
+
         link("https://www.buymeacoffee.com/postpandmcpump", image('https://i.imgur.com/thJhzOO.png')),
     ]
     layout(*myargs)

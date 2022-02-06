@@ -28,4 +28,4 @@ exercise = df.sample().Exercise.values[0]
 if st.button("⟳"):
     exercise = df.sample().Exercise.values[0]
 
-st.write(f"# {exercise}")
+exercise_placeholder.write(f"# {exercise}")

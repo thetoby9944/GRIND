@@ -22,4 +22,10 @@ for col in df.columns[:-1][::-1]:
         df = df[df[col].isin(filter_by)]
 st.write("# ")
 st.write("Your exercise of the day is:")
-st.write(f"# {df.sample().Exercise.values[0]}")
+
+exercise_placeholder = st.empty()
+exercise = df.sample().Exercise.values[0]
+if st.button("⟳"):
+    exercise = df.sample().Exercise.values[0]
+
+st.write(f"# {exercise}")

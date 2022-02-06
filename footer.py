@@ -25,7 +25,7 @@ def layout(*args):
         position="fixed",
         left=0,
         bottom=0,
-        margin=px(0, 0, 0, 0),
+        margin=px(10, 0, 0, 0),
         width=percent(100),
         color="black",
         background="white",
@@ -64,7 +64,6 @@ def layout(*args):
 
 def footer():
     myargs = [
-
         link("https://www.buymeacoffee.com/postpandmcpump", image('https://i.imgur.com/thJhzOO.png')),
     ]
     layout(*myargs)

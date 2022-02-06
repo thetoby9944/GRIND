@@ -8,6 +8,7 @@ st.set_page_config(
 )
 
 st.image("assets/grind_logo.svg")
+st.write("# ")
 df = pd.read_csv(
     r"https://docs.google.com/spreadsheets/d/1qS66r_5lfu6xgUGDaExV6gaMoZO62i-yczodugfvNdY/export?format=csv&gid=0"
 )
@@ -27,6 +28,7 @@ if st.button("⟳"):
     exercise = df.sample().Exercise.values[0]
 
 st.write(f"# {exercise}")
-
-st.write("Made with ❤️by (https://www.instagram.com/postpandemicpump/)[@PostPandemicPump]")
+st.write("# ")
+st.write("# ")
+st.write("Made with ❤️by [@PostPandemicPump](https://www.instagram.com/postpandemicpump/)")
 footer()
